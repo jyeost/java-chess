@@ -1,9 +1,10 @@
 package techcourse.fp.mission;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.*;
 
 import java.util.Arrays;
 import java.util.List;
+
 import org.junit.jupiter.api.Test;
 
 @SuppressWarnings("NonAsciiCharacters")
@@ -40,4 +41,5 @@ class StreamStudyTest {
     public void printLongestWordTop100() throws Exception {
         StreamStudy.printLongestWordTop100();
     }
+
 }
